@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap" rel="stylesheet">
+
+    <title>Social links profile</title>
+
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: hsl(0, 0%, 8%);
+            font-family: 'Inter', sans-serif;
+        }
+        
+        img {
+            border-radius: 50px;
+            margin-top: 30px;
+        }
+        
+        .container {
+            background-color: hsl(0, 0%, 12%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 65vh;
+            width: 300px;
+            border-radius: 20px;
+        }
+        
+        h2 {
+            color: white;
+            margin-bottom: 5px;
+            src: url(assets/fonts/static/Inter-Bold.ttf);
+        }
+        
+        .place {
+            color: hsl(75, 94%, 57%);
+            margin-top: 0px;
+            font-size: small;
+            src: url(assets/fonts/static/Inter-SemiBold.ttf);
+        }
+        
+        .information {
+            color: lightgrey;
+            font-size: small;
+            src: url(assets/fonts/static/Inter-Regular.ttf);
+        }
+        
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+        }
+        
+        .link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 250px;
+            padding: 10px 0px 10px 0px;
+            border-radius: 10px;
+            background-color: hsl(0, 0%, 20%);
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <img src="assets/images/ayman.jpg" alt="" width="100px">
+        <h2>Abdul Gani Ayman</h2>
+        <p class="place">Tenkasi, Tamil Nadu</p>
+        <p class="information">"Front-end developer and avid reader."</p>
+        <div>
+            <ul>
+                <li class="link1 link"><a href="https://github.com/mr-ayman">GitHub</a></li>
+                <li class="link2 link"><a href="https://www.frontendmentor.io/profile/mr-ayman">Frontend Mentor</a></li>
+                <li class="link3 link"><a href="https://www.linkedin.com/in/abdul-gani-ayman-60549b290/">LinkedIn</a></li>
+                <li class="link4 link"><a href="https://www.twitter.com">Twitter</a></li>
+                <li class="link5 link"><a href="https://www.instagram.com">Instagram</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+</body>
+
+</html>
